@@ -1,0 +1,62 @@
+{
+  "name": "vijnana",
+  "interface": {
+    "displayName": "Vijnana Plugins"
+  },
+  "plugins": [
+    {
+      "name": "code-review-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/code-review-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "vijnana-cloud",
+          "vijnana-desktop-macos",
+          "vijnana-desktop-windows",
+          "vijnana-desktop-linux"
+        ]
+      },
+      "category": "Development"
+    },
+    {
+      "name": "documentation-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/documentation-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "vijnana-cloud",
+          "vijnana-desktop-macos",
+          "vijnana-desktop-windows",
+          "vijnana-desktop-linux"
+        ]
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "workspace-inspector",
+      "source": {
+        "source": "local",
+        "path": "./plugins/workspace-inspector"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": [
+          "vijnana-cloud",
+          "vijnana-desktop-macos",
+          "vijnana-desktop-windows",
+          "vijnana-desktop-linux"
+        ]
+      },
+      "category": "Development"
+    }
+  ]
+}
