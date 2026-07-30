@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "documentation-kit",
+  "version": "1.0.0",
+  "description": "兼容既有绑定的技术文档工作流",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["compatibility", "documentation"]
+}

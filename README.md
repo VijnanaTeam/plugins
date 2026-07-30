@@ -22,6 +22,7 @@ plugins/<plugin-name>/
 - 可用：Word、PDF、Excel、PowerPoint。
 - 计划接入：Notion（OAuth + 远程 MCP）。
 - 即将推出：Figma、Canva、Google Drive。
+- 隐藏兼容：旧版本已绑定的插件保留运行能力，但不会出现在新选择目录中。
 
 ## 发布约束
 
