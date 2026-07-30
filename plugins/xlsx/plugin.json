@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "xlsx",
+  "version": "1.0.0",
+  "description": "创建、清洗和分析 Excel 工作簿",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["excel", "xlsx", "spreadsheet"]
+}

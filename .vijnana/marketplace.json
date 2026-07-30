@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "name": "vijnana",
+  "displayName": "Vijnana Plugins",
+  "plugins": [
+    {
+      "path": "./plugins/docx",
+      "availability": "available",
+      "targets": ["vijnana-cloud"],
+      "displayName": "Word 文档",
+      "category": "文档办公",
+      "icon": "file-word"
+    },
+    {
+      "path": "./plugins/pdf",
+      "availability": "available",
+      "targets": ["vijnana-cloud"],
+      "displayName": "PDF",
+      "category": "文档办公",
+      "icon": "file-pdf"
+    },
+    {
+      "path": "./plugins/xlsx",
+      "availability": "available",
+      "targets": ["vijnana-cloud"],
+      "displayName": "Excel 表格",
+      "category": "文档办公",
+      "icon": "file-excel"
+    },
+    {
+      "path": "./plugins/pptx",
+      "availability": "available",
+      "targets": ["vijnana-cloud"],
+      "displayName": "PowerPoint 演示",
+      "category": "文档办公",
+      "icon": "file-powerpoint"
+    },
+    {
+      "path": "./plugins/notion",
+      "availability": "planned",
+      "targets": ["vijnana-cloud"],
+      "displayName": "Notion",
+      "category": "协作与知识",
+      "icon": "notion"
+    }
+  ],
+  "comingSoon": [
+    {
+      "id": "figma",
+      "displayName": "Figma",
+      "description": "读取设计稿、组件和设计上下文",
+      "category": "设计协作",
+      "icon": "figma",
+      "targets": ["vijnana-cloud"],
+      "reasonCode": "coming_soon"
+    },
+    {
+      "id": "canva",
+      "displayName": "Canva",
+      "description": "创建和整理 Canva 设计内容",
+      "category": "设计协作",
+      "icon": "canva",
+      "targets": ["vijnana-cloud"],
+      "reasonCode": "coming_soon"
+    },
+    {
+      "id": "google-drive",
+      "displayName": "Google Drive",
+      "description": "查找和管理 Google Drive 文件",
+      "category": "云存储",
+      "icon": "google-drive",
+      "targets": ["vijnana-cloud"],
+      "reasonCode": "coming_soon"
+    }
+  ]
+}

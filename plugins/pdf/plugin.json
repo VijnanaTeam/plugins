@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pdf",
+  "version": "1.0.0",
+  "description": "阅读、创建和处理 PDF 文件",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["pdf", "ocr", "form"]
+}

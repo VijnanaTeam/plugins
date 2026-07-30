@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "docx",
+  "version": "1.0.0",
+  "description": "创建、编辑和整理 Word 文档",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["word", "docx", "document"]
+}
