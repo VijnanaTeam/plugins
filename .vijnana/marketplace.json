@@ -9,8 +9,7 @@
       "visibility": "catalog",
       "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
       "displayName": "Word 文档",
-      "category": "文档办公",
-      "icon": "file-word"
+      "category": "文档办公"
     },
     {
       "path": "./plugins/pdf",
@@ -18,8 +17,7 @@
       "visibility": "catalog",
       "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
       "displayName": "PDF",
-      "category": "文档办公",
-      "icon": "file-pdf"
+      "category": "文档办公"
     },
     {
       "path": "./plugins/xlsx",
@@ -27,8 +25,7 @@
       "visibility": "catalog",
       "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
       "displayName": "Excel 表格",
-      "category": "文档办公",
-      "icon": "file-excel"
+      "category": "文档办公"
     },
     {
       "path": "./plugins/pptx",
@@ -36,8 +33,7 @@
       "visibility": "catalog",
       "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
       "displayName": "PowerPoint 演示",
-      "category": "文档办公",
-      "icon": "file-powerpoint"
+      "category": "文档办公"
     },
     {
       "path": "./plugins/notion",
@@ -45,8 +41,31 @@
       "visibility": "catalog",
       "targets": ["vijnana-cloud"],
       "displayName": "Notion",
-      "category": "协作与知识",
-      "icon": "notion"
+      "category": "协作与知识"
+    },
+    {
+      "path": "./plugins/figma",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": ["vijnana-cloud"],
+      "displayName": "Figma",
+      "category": "设计协作"
+    },
+    {
+      "path": "./plugins/canva",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": ["vijnana-cloud"],
+      "displayName": "Canva",
+      "category": "设计协作"
+    },
+    {
+      "path": "./plugins/google-drive",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": ["vijnana-cloud"],
+      "displayName": "Google Drive",
+      "category": "云存储"
     },
     {
       "path": "./plugins/code-review-kit",
@@ -73,33 +92,5 @@
       "category": "兼容迁移"
     }
   ],
-  "comingSoon": [
-    {
-      "id": "figma",
-      "displayName": "Figma",
-      "description": "读取设计稿、组件和设计上下文",
-      "category": "设计协作",
-      "icon": "figma",
-      "targets": ["vijnana-cloud"],
-      "reasonCode": "coming_soon"
-    },
-    {
-      "id": "canva",
-      "displayName": "Canva",
-      "description": "创建和整理 Canva 设计内容",
-      "category": "设计协作",
-      "icon": "canva",
-      "targets": ["vijnana-cloud"],
-      "reasonCode": "coming_soon"
-    },
-    {
-      "id": "google-drive",
-      "displayName": "Google Drive",
-      "description": "查找和管理 Google Drive 文件",
-      "category": "云存储",
-      "icon": "google-drive",
-      "targets": ["vijnana-cloud"],
-      "reasonCode": "coming_soon"
-    }
-  ]
+  "comingSoon": []
 }

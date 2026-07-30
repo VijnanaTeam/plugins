@@ -1,11 +1,11 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "pptx",
-  "version": "1.0.1",
-  "description": "创建和编辑 PowerPoint 演示文稿",
+  "name": "google-drive",
+  "version": "1.0.0",
+  "description": "查找和管理 Google Drive 文件",
   "author": { "name": "Vijnana Team" },
   "license": "MIT",
-  "keywords": ["powerpoint", "pptx", "presentation"],
+  "keywords": ["google-drive", "cloud-storage", "files"],
   "extensions": {
     "ai.vijna": {
       "schemaVersion": 1,

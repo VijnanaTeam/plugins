@@ -1,11 +1,11 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "pptx",
-  "version": "1.0.1",
-  "description": "创建和编辑 PowerPoint 演示文稿",
+  "name": "canva",
+  "version": "1.0.0",
+  "description": "创建和整理 Canva 设计内容",
   "author": { "name": "Vijnana Team" },
   "license": "MIT",
-  "keywords": ["powerpoint", "pptx", "presentation"],
+  "keywords": ["canva", "design", "content"],
   "extensions": {
     "ai.vijna": {
       "schemaVersion": 1,

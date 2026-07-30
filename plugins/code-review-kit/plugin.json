@@ -1,9 +1,17 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "code-review-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "兼容既有绑定的代码审查工作流",
   "author": { "name": "Vijnana Team" },
   "license": "MIT",
-  "keywords": ["compatibility", "review"]
+  "keywords": ["compatibility", "review"],
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
 }

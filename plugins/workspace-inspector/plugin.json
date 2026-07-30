@@ -1,9 +1,17 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "workspace-inspector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "兼容既有绑定的只读工作区检查工具",
   "author": { "name": "Vijnana Team" },
   "license": "MIT",
-  "keywords": ["compatibility", "workspace"]
+  "keywords": ["compatibility", "workspace"],
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
 }

@@ -1,9 +1,17 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "notion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "连接 Notion 工作区并读写页面",
   "author": { "name": "Vijnana Team" },
   "license": "MIT",
-  "keywords": ["notion", "notes", "workspace"]
+  "keywords": ["notion", "notes", "workspace"],
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
 }
