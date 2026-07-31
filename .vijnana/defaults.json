@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "contexts": {
+    "assistant": ["docx", "pdf", "xlsx", "pptx"],
+    "local-task": ["docx", "pdf", "xlsx", "pptx"]
+  }
+}
