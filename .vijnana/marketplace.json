@@ -45,7 +45,7 @@
     },
     {
       "path": "./plugins/feishu",
-      "availability": "planned",
+      "availability": "available",
       "visibility": "catalog",
       "targets": ["vijnana-cloud"],
       "displayName": "飞书",
