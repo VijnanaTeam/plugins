@@ -44,6 +44,14 @@
       "category": "协作与知识"
     },
     {
+      "path": "./plugins/feishu",
+      "availability": "available",
+      "visibility": "catalog",
+      "targets": ["vijnana-cloud"],
+      "displayName": "飞书",
+      "category": "协作与知识"
+    },
+    {
       "path": "./plugins/figma",
       "availability": "planned",
       "visibility": "catalog",
