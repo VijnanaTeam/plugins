@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "feishu",
+  "version": "1.0.0",
+  "description": "连接飞书,读写云文档、查用户与文件(个人账号授权)",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["feishu", "lark", "docs", "云文档"],
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}
