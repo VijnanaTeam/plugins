@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dingtalk",
+  "version": "1.0.0",
+  "description": "连接钉钉,收发消息、读写文档与智能表格、日程待办、通讯录与云盘(个人账号扫码授权)",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["dingtalk", "钉钉", "im", "docs", "协作"],
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

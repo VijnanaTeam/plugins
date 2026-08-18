@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wecom",
+  "version": "1.0.0",
+  "description": "连接企业微信,收发消息、读写文档与智能表格、日程会议待办、通讯录、微盘与邮件(个人账号扫码授权)",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["wecom", "企业微信", "im", "docs", "协作"],
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}
