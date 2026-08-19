@@ -7,7 +7,12 @@
       "path": "./plugins/docx",
       "availability": "available",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
+      "targets": [
+        "vijnana-cloud",
+        "vijnana-desktop-macos",
+        "vijnana-desktop-windows",
+        "vijnana-desktop-linux"
+      ],
       "displayName": "Word 文档",
       "category": "文档办公"
     },
@@ -15,7 +20,12 @@
       "path": "./plugins/pdf",
       "availability": "available",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
+      "targets": [
+        "vijnana-cloud",
+        "vijnana-desktop-macos",
+        "vijnana-desktop-windows",
+        "vijnana-desktop-linux"
+      ],
       "displayName": "PDF",
       "category": "文档办公"
     },
@@ -23,7 +33,12 @@
       "path": "./plugins/xlsx",
       "availability": "available",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
+      "targets": [
+        "vijnana-cloud",
+        "vijnana-desktop-macos",
+        "vijnana-desktop-windows",
+        "vijnana-desktop-linux"
+      ],
       "displayName": "Excel 表格",
       "category": "文档办公"
     },
@@ -31,7 +46,12 @@
       "path": "./plugins/pptx",
       "availability": "available",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
+      "targets": [
+        "vijnana-cloud",
+        "vijnana-desktop-macos",
+        "vijnana-desktop-windows",
+        "vijnana-desktop-linux"
+      ],
       "displayName": "PowerPoint 演示",
       "category": "文档办公"
     },
@@ -39,7 +59,9 @@
       "path": "./plugins/notion",
       "availability": "planned",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud"],
+      "targets": [
+        "vijnana-cloud"
+      ],
       "displayName": "Notion",
       "category": "协作与知识"
     },
@@ -47,7 +69,9 @@
       "path": "./plugins/feishu",
       "availability": "available",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud"],
+      "targets": [
+        "vijnana-cloud"
+      ],
       "displayName": "飞书",
       "category": "协作与知识"
     },
@@ -55,7 +79,9 @@
       "path": "./plugins/figma",
       "availability": "planned",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud"],
+      "targets": [
+        "vijnana-cloud"
+      ],
       "displayName": "Figma",
       "category": "设计协作"
     },
@@ -63,7 +89,9 @@
       "path": "./plugins/canva",
       "availability": "planned",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud"],
+      "targets": [
+        "vijnana-cloud"
+      ],
       "displayName": "Canva",
       "category": "设计协作"
     },
@@ -71,7 +99,9 @@
       "path": "./plugins/google-drive",
       "availability": "planned",
       "visibility": "catalog",
-      "targets": ["vijnana-cloud"],
+      "targets": [
+        "vijnana-cloud"
+      ],
       "displayName": "Google Drive",
       "category": "云存储"
     },
@@ -79,7 +109,12 @@
       "path": "./plugins/code-review-kit",
       "availability": "available",
       "visibility": "hidden",
-      "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
+      "targets": [
+        "vijnana-cloud",
+        "vijnana-desktop-macos",
+        "vijnana-desktop-windows",
+        "vijnana-desktop-linux"
+      ],
       "displayName": "Code Review Kit",
       "category": "兼容迁移"
     },
@@ -87,7 +122,12 @@
       "path": "./plugins/documentation-kit",
       "availability": "available",
       "visibility": "hidden",
-      "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
+      "targets": [
+        "vijnana-cloud",
+        "vijnana-desktop-macos",
+        "vijnana-desktop-windows",
+        "vijnana-desktop-linux"
+      ],
       "displayName": "Documentation Kit",
       "category": "兼容迁移"
     },
@@ -95,9 +135,34 @@
       "path": "./plugins/workspace-inspector",
       "availability": "available",
       "visibility": "hidden",
-      "targets": ["vijnana-cloud", "vijnana-desktop-macos", "vijnana-desktop-windows", "vijnana-desktop-linux"],
+      "targets": [
+        "vijnana-cloud",
+        "vijnana-desktop-macos",
+        "vijnana-desktop-windows",
+        "vijnana-desktop-linux"
+      ],
       "displayName": "Workspace Inspector",
       "category": "兼容迁移"
+    },
+    {
+      "path": "./plugins/dingtalk",
+      "availability": "available",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "钉钉",
+      "category": "协作与知识"
+    },
+    {
+      "path": "./plugins/wecom",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "企业微信",
+      "category": "协作与知识"
     }
   ],
   "comingSoon": []
