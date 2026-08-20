@@ -156,7 +156,7 @@
     },
     {
       "path": "./plugins/wecom",
-      "availability": "planned",
+      "availability": "available",
       "visibility": "catalog",
       "targets": [
         "vijnana-cloud"
