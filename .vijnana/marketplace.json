@@ -76,6 +76,16 @@
       "category": "协作与知识"
     },
     {
+      "path": "./plugins/kingdee-k3cloud",
+      "availability": "available",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "金蝶云星空",
+      "category": "企业管理"
+    },
+    {
       "path": "./plugins/figma",
       "availability": "planned",
       "visibility": "catalog",

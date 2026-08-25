@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "kingdee-k3cloud",
+  "version": "1.0.0",
+  "description": "连接金蝶云星空 K3Cloud，通过 WebAPI 查询、查看和处理标准业务单据（用户账号授权）",
+  "author": { "name": "Vijnana Team" },
+  "license": "MIT",
+  "keywords": ["kingdee", "k3cloud", "erp", "金蝶", "云星空", "webapi"],
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}
