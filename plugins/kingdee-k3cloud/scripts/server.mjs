@@ -162,6 +162,11 @@ function requiredString(value, label) {
   return value.trim();
 }
 
+function exactString(value, label) {
+  if (typeof value !== 'string') throw new Error(`${label} 必须是字符串`);
+  return value;
+}
+
 function integer(value, label, min, max) {
   if (!Number.isInteger(value) || value < min || (max !== undefined && value > max)) {
     throw new Error(`${label} 必须是 ${min}-${max === undefined ? '∞' : max} 的整数`);
@@ -196,10 +201,10 @@ function normalizeCall(name, raw) {
       limit: integer(args.limit, 'limit', 1, 2000),
       ...(args.filterString === undefined
         ? {}
-        : { filterString: requiredString(args.filterString, 'filterString') }),
+        : { filterString: exactString(args.filterString, 'filterString') }),
       ...(args.orderString === undefined
         ? {}
-        : { orderString: requiredString(args.orderString, 'orderString') }),
+        : { orderString: exactString(args.orderString, 'orderString') }),
       ...organization(args),
     };
   }
@@ -238,6 +243,8 @@ function normalizeCall(name, raw) {
 
 function errorMessage(body, status) {
   if (body && typeof body === 'object' && !Array.isArray(body)) {
+    const kingdeeMessage = body.kingdeeMessage;
+    if (typeof kingdeeMessage === 'string' && kingdeeMessage.length > 0) return kingdeeMessage;
     const message = body.message;
     if (typeof message === 'string' && message.length > 0) return message;
     if (Array.isArray(message)) return message.map(String).join('; ');
@@ -250,7 +257,6 @@ async function callControlPlane(payload) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
     body: JSON.stringify({ credential, ...payload }),
-    signal: AbortSignal.timeout(30_000),
   });
   let body;
   try {

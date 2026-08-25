@@ -17,7 +17,33 @@
 
 查看时传 `formId`，再在 `id` 或 `number` 中选择一个。创建组织上下文需要时传 `createOrgId`。
 
-## 常用写操作 data
+## 写操作 data 外层结构
+
+以下是 V5 协议外层，`Model` 内的业务字段必须按目标表单元数据和金蝶业务配置填写。
+
+- `save` / `draft`：单张表单数据。
+
+```json
+{
+  "NeedUpDateFields": [],
+  "Model": { "FID": "0", "FNumber": "..." }
+}
+```
+
+更新已有单据时按需填写 `NeedUpDateFields`，表体更新还必须带明细主键。`Creator`、`IsDeleteEntry`、`NeedReturnFields`、`IsVerifyBaseDataField`、`IsEntryBatchFill`、`InterationFlags`、`IgnoreInterationFlag`、`IsAutoSubmitAndAudit` 都是可选控制参数，不确定时不要猜值。
+
+- `batch_save`：`Model` 是多张表单数据；`BatchCount` 可选，用于分批执行。
+
+```json
+{
+  "NeedUpDateFields": [],
+  "BatchCount": "2",
+  "Model": [
+    { "FID": "0", "FNumber": "..." },
+    { "FID": "0", "FNumber": "..." }
+  ]
+}
+```
 
 - `submit` / `audit` / `unaudit` / `delete`
 
@@ -43,6 +69,43 @@
   "TargetFormId": "",
   "IsEnableDefaultRule": false,
   "CustomParams": {}
+}
+```
+
+- `group_save`
+
+```json
+{
+  "GroupFieldKey": "",
+  "FParentId": 0,
+  "FNumber": "GROUP001",
+  "FName": "分组名称",
+  "FDescription": ""
+}
+```
+
+- `flex_save`：`Model` 是弹性域维度数据集合，`FF...` 字段由目标表单决定。
+
+```json
+{
+  "Model": [
+    { "FF100001": { "FNumber": "A" }, "FF100002": 22 }
+  ]
+}
+```
+
+- `send_message`：不传 `formId`。
+
+```json
+{
+  "Model": [
+    {
+      "FTitle": "消息标题",
+      "FContent": "消息内容",
+      "FReceivers": "110",
+      "FType": "0"
+    }
+  ]
 }
 ```
 
