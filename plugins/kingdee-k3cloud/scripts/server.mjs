@@ -55,7 +55,7 @@ const tools = [
   },
   {
     name: 'kingdee_query',
-    description: '通过 ExecuteBillQuery 分页查询金蝶表单字段，返回字段列表和对应行。limit 必须为 1-2000。',
+    description: '通过 ExecuteBillQuery 分页查询金蝶表单字段，返回字段列表和对应行。limit 必须为 1-2000；全量查询应在调用端从 structuredContent.result 逐页消费和聚合，不要原样输出各页结果。',
     inputSchema: {
       type: 'object',
       properties: {

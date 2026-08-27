@@ -16,6 +16,17 @@ description: 通过已授权的金蝶云星空 K3Cloud WebAPI 查询、查看和
 
 如果要在指定组织下操作，把组织编码放在 `organizationNumber`；平台会在同一次会话中切换组织并立即执行业务请求。
 
+## 全量与多页查询
+
+少量明细、Top N 或用户明确要求展示的几行可以直接返回。需要读取全量或多页数据时：
+
+1. 在同一次组合执行中循环调用 `kingdee_query`；Codex 使用 `functions.exec`。每次先检查 `callResult.isError`；失败时按下方错误处理说明原因并停止分页。成功时只读取 `callResult.structuredContent.result`，不要打印或序列化成功结果的 `CallToolResult`、`content` 或整页 `rows`。
+2. 保持查询条件和字段不变，使用 `startRow += rows.length` 请求下一页；只有 `rows.length < limit` 才表示读取完成。
+3. 在循环内立即完成计数、聚合或文件写入。最终只输出一次汇总、用户明确要求的少量样例或生成文件的路径。
+4. 元数据只提取本次需要的字段，不要输出完整元数据对象。
+
+执行器提示 `truncated output` 只表示脚本打印内容过多，不表示金蝶接口截断。不要据此声称数据不完整或要求用户手工导出；数据完整性以分页读取到短页为准。
+
 ## 写操作
 
 `kingdee_write` 的 `data` 直接传 JSON 对象，不要先转成 JSON 字符串。
