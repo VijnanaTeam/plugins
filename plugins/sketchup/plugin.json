@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sketchup",
+  "version": "1.0.0",
+  "description": "三维草图、空间建模与设计方案表达",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.sketchup.com/",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

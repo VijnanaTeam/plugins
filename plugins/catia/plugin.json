@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "catia",
+  "version": "1.0.0",
+  "description": "产品造型、曲面建模与复杂工程设计",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.3ds.com/products/catia",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "creo",
+  "version": "1.0.0",
+  "description": "参数化 CAD、产品设计与工程建模",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.ptc.com/en/products/creo",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "siemens-nx",
+  "version": "1.0.0",
+  "description": "CAD 建模、工程设计与 CAM 数控加工",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://plm.sw.siemens.com/en-US/nx/",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

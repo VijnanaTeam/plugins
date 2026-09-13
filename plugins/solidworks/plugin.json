@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "solidworks",
+  "version": "1.0.0",
+  "description": "参数化三维 CAD、机械零件与装配设计",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.solidworks.com/",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

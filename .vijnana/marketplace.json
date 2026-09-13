@@ -173,6 +173,226 @@
       ],
       "displayName": "企业微信",
       "category": "协作与知识"
+    },
+    {
+      "path": "./plugins/solidworks",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "SOLIDWORKS",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/autocad",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "AutoCAD",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/3ds-max",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "3ds Max",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/catia",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "CATIA",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/siemens-nx",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Siemens NX（UG）",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/creo",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "PTC Creo",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/rhino",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Rhino（犀牛）",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/autodesk-fusion",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Autodesk Fusion",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/inventor",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Autodesk Inventor",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/solid-edge",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Solid Edge",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/alias",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Autodesk Alias",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/keyshot",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "KeyShot",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/blender",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Blender",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/cinema4d",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Cinema 4D",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/sketchup",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "SketchUp",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/freecad",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "FreeCAD",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/onshape",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Onshape",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/shapr3d",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "Shapr3D",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/zwcad",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "中望 CAD（ZWCAD）",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/bricscad",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "BricsCAD",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/caxa",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "CAXA 数码大方",
+      "category": "工业设计"
+    },
+    {
+      "path": "./plugins/zw3d",
+      "availability": "planned",
+      "visibility": "catalog",
+      "targets": [
+        "vijnana-cloud"
+      ],
+      "displayName": "中望 3D（ZW3D）",
+      "category": "工业设计"
     }
   ],
   "comingSoon": []

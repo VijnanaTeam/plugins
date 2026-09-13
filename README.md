@@ -23,6 +23,7 @@ Vijnana 界面图标，文件固定为 256×256 PNG `./ai.vijna/icon.png`。
 
 - 可用：Word、PDF、Excel、PowerPoint。
 - 计划接入：Notion（OAuth + 远程 MCP）、Figma、Canva、Google Drive。
+- 工业设计规划项：SOLIDWORKS、AutoCAD、3ds Max、CATIA、Siemens NX（UG）、PTC Creo、Rhino（犀牛）、Autodesk Fusion、Autodesk Inventor、Solid Edge、Autodesk Alias、KeyShot、Blender、Cinema 4D、SketchUp、FreeCAD、Onshape、Shapr3D、中望 CAD（ZWCAD）、BricsCAD、CAXA 数码大方、中望 3D（ZW3D）。仅包含目录信息和图标，Skill / MCP 内容留空。
 - 隐藏兼容：旧版本已绑定的插件保留运行能力，但不会出现在新选择目录中。
 
 ## 发布约束

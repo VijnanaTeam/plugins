@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zw3d",
+  "version": "1.0.0",
+  "description": "国产三维 CAD 建模、模具设计与 CAM 加工",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.zwsoft.com/product/zw3d",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "keyshot",
+  "version": "1.0.0",
+  "description": "产品材质、灯光与照片级效果图渲染",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.keyshot.com/",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

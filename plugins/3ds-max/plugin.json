@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "3ds-max",
+  "version": "1.0.0",
+  "description": "三维建模、动画与产品效果图渲染",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.autodesk.com/products/3ds-max/overview",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}

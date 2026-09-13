@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "inventor",
+  "version": "1.0.0",
+  "description": "机械设计、三维装配与工程图制作",
+  "author": {
+    "name": "Vijnana Team"
+  },
+  "homepage": "https://www.autodesk.com/products/inventor/overview",
+  "extensions": {
+    "ai.vijna": {
+      "schemaVersion": 1,
+      "interface": {
+        "icon": "./ai.vijna/icon.png"
+      }
+    }
+  }
+}
